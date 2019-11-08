@@ -3,7 +3,7 @@ SIFT Flow: Dense Correspondence across Scenes and its Applications. Liu et. al. 
 
 https://people.csail.mit.edu/celiu/SIFTflow/
 
-Fixed ** error: cannot convert ‘int*’ to ‘const mwSize* ** error while compiling mex (replace int with mwSize in several files). And fixed file name typo in Matrix.h line 5.
+Fixed - ![#f03c15](error: cannot convert ‘int*’ to ‘const mwSize*‘) `#f03c15` error while compiling mex (replace int with mwSize in several files). And fixed file name typo in Matrix.h line 5.
 
 No personal contributions.
 
