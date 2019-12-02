@@ -6,7 +6,11 @@ https://people.csail.mit.edu/celiu/SIFTflow/
 follow the **readme.txt** instruction in each folder.
 
 ## modification to original code
-* Fixed ** error: cannot convert ‘int*’ to ‘const mwSize* ** error while compiling mex (replace int with mwSize in several files). And fixed file name typo in Matrix.h line 5.
+* Fixed the following error while compiling mex (replace int with mwSize in several files).
+```diff
+- error: cannot convert ‘int*’ to ‘const mwSize*‘
+``` 
+And fixed file name typo in Matrix.h line 5.
 * Generated dense sift with 128 bin into bin file using `generate_SIFT.m`
 * Generated sift flow bin file using `generate_SIFTflow.m`
 
